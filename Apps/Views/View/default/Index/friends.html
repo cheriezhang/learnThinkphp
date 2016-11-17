@@ -1,0 +1,82 @@
+<!--<layout name="layout"/>-->
+<!--继承Base/common 用新的同名的block覆盖common中的block-->
+<extend name="Base/common"/>
+<block name="content">
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">好友列表</h3>
+    </div>
+    <ul class="list-group media-list">
+        <!--volist循环-->
+        <!--volist是查询数据集结果输出,name要和模板赋值即assign那里一致,id是当前的循环变量,不要和name冲突
+        在使用变量时,如friends数组中的avatar部分,就要用到i循环变量而不是friends 带双花括号的要加$,双引号则不用-->
+        <volist name="friends" id="i" empty="none">
+            <li class="list-group-item media">
+                <a class="pull-left" href="#">
+                    <!--empty判断头像是否为空-->
+                    <empty name="i['avatar']">
+                        <!--为空则输出default 显示图片为media-object-->
+                        <img width="120" height="120"  class="media-object" src="__AVATAR__/default.jpg"
+                             alt="{{$i['username']}}">
+                        <else/>
+                        <!--不为空则输出用户头像-->
+                        <img width="120" height="120"  class="media-object" src="__AVATAR__/{{$i['avatar']}}"
+                             alt="{{$i['username']}}">
+                    </empty>
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        {{$i['username']}}(今年{{$i.age}}岁)
+
+                        <!--
+                            eq	: ==
+                            neq : !=
+                            gt  : >
+                            egt : >=
+                            lt  : <
+                            elt : <=
+                            heq : ===
+                            nheq:!==
+                        -->
+
+                        <!--eq,判断年龄是否是30岁 type="eq"和<eq name="name" value="value">value</eq>等效-->
+                        <compare name="i['age']" value="30" type="eq">
+                            <span class="label label-warning">恰好30岁</span>
+                        </compare>
+                        <!--if else-->
+                        <!--如果年龄小于18岁-->
+                        <if condition="$i['age'] lt 18">
+                            <span class="pull-right">未成年</span>
+                            <else/>
+                            <!--否则输出按钮 注意else后面写/-->
+                            <a href="#" class="pull-right btn btn-warning">需满18岁</a>
+                        </if>
+                    </h4>
+                    <p>
+                        <!--比较标签-->
+
+                        <!--lt比较年龄 eq也可以这么用-->
+                        <lt name="i['age']" value="18">未成年</lt>
+                        <compare name="i['age']" value="18" type="lt">
+									<span class="text-danger">
+										注意,compare标签也表示:{{$friend['username']}}未成年!</span>
+                        </compare>
+                        <!--egt方式比较年龄-->
+                        <egt name="i['age']" value="35">中年人</egt>
+                        <!--between方式比较年龄-->
+                        <between name="i['age']" value="18,34">青年</between>
+                    </p>
+                    <div>
+                        标签:
+                        <!--Volist循环嵌套输出tags标签-->
+                        <volist name="i['tags']" id="tag">
+                            <span class="label label-success">{{$tag}}</span>
+                        </volist>
+                    </div>
+                </div>
+            </li>
+        </volist>
+    </ul>
+</div>
+</block>

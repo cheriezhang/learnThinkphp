@@ -1,0 +1,14 @@
+Application中为原始的应用结构
+Apps为设置后的应用结构
+Common为定义的公共模块
+Public存放bootstrap
+Theme存放模板
+Upload存放图片
+
+Apps目录结构:
+Admin为后台模块,是原始的
+Common模块是绑定模块自带的
+Home模块是绑定模块自带的 其中包括控制器和配置项的使用
+Models模块是模型的使用
+Valdates是模块的自动验证,自动填充
+Views是视图的使用

@@ -1,0 +1,47 @@
+[ 2016-11-17T20:13:04+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=q5pt42p6v06matntb2dv0cof8h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004477s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0346s ]
+NOTIC: [8] Undefined index: validate /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`name`,`password`,`email`) VALUES ('李四','e10adc3949ba59abbe56e057f20f883e','1234567@qq.com') [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2016-11-17T20:13:25+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=q5pt42p6v06matntb2dv0cof8h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003843s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`name`,`password`,`email`) VALUES ('linda','e10adc3949ba59abbe56e057f20f883e','1234567@qq.com') [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-11-17T20:15:58+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=q5pt42p6v06matntb2dv0cof8h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003604s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003069s ]
+

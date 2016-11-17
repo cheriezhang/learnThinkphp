@@ -1,0 +1,91 @@
+[ 2016-11-15T10:15:32+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=74e8rttmi1jqfsnhe8ckhisgt4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004606s ]
+
+[ 2016-11-15T10:17:50+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=4bipbe1p5up50r5pvo15urkptl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004057s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-11-15T20:30:08+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=nq0r9jasn3bn89oobchbjrnvn2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003519s ]
+ERR: 1146:Table 'weather.jike_adminuser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jike_AdminUser`
+ERR: 1146:Table 'weather.jike_adminuser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jike_AdminUser`
+
+[ 2016-11-15T20:30:32+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=nq0r9jasn3bn89oobchbjrnvn2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003994s ]
+ERR: 1146:Table 'weather.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+ERR: 1146:Table 'weather.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-11-15T20:34:16+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=nq0r9jasn3bn89oobchbjrnvn2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004200s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+
+[ 2016-11-15T20:43:50+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=nq0r9jasn3bn89oobchbjrnvn2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003224s ]
+
+[ 2016-11-15T21:34:26+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=nq0r9jasn3bn89oobchbjrnvn2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003353s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-11-15T21:39:40+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=nq0r9jasn3bn89oobchbjrnvn2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004350s ]
+

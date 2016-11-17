@@ -1,0 +1,231 @@
+[ 2016-11-16T15:06:54+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004153s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003821s ]
+
+[ 2016-11-16T15:07:33+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003746s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+SQL: INSERT INTO `user` (`name`,`password`,`email`) VALUES ('李四','e10adc3949ba59abbe56e057f20f883e','1234567@qq.com') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-11-16T15:07:42+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-11-16T15:10:07+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003894s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined variable: set /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = 0' at line 1
+ [ SQL语句 ] : UPDATE `user` SET  WHERE `id` = 0
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = 0' at line 1
+ [ SQL语句 ] : UPDATE `user` SET  WHERE `id` = 0
+
+[ 2016-11-16T15:10:29+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004323s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: set /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = 4' at line 1
+ [ SQL语句 ] : UPDATE `user` SET  WHERE `id` = 4
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = 4' at line 1
+ [ SQL语句 ] : UPDATE `user` SET  WHERE `id` = 4
+
+[ 2016-11-16T15:10:43+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003778s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined variable: set /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `user` SET  WHERE `id` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `user` SET  WHERE `id` = 1
+
+[ 2016-11-16T15:11:22+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003825s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003776s ]
+
+[ 2016-11-16T15:11:27+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-11-16T15:12:18+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003844s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: UPDATE `user` SET `name`='Tom' WHERE `id` = 1 [ RunTime:0.0089s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004065s ]
+
+[ 2016-11-16T15:12:47+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003594s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0067s ]
+SQL: DELETE FROM `user` WHERE `id` = 1 [ RunTime:0.0051s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-11-16T15:12:57+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-11-16T15:13:11+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003882s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004064s ]
+
+[ 2016-11-16T15:33:17+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004203s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-11-16T15:33:52+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.0076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004442s ]
+
+[ 2016-11-16T15:36:32+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005844s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 AND `name` = '李四'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007059s ]
+
+[ 2016-11-16T15:39:11+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004112s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 AND `name` = '李四' ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003698s ]
+
+[ 2016-11-16T15:43:01+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=jla5p540046bi94tebqkvbgffo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user` WHERE `id` = 2 AND `name` = '李四' ORDER BY id desc LIMIT 50,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007497s ]
+

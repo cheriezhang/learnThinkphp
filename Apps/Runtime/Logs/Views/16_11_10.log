@@ -1,0 +1,388 @@
+[ 2016-11-10T10:42:54+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003429s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004166s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Specification mandate value for attribute lt /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=&quot;$friend['age']&quot; lt 18 /&gt;&lt;/tpl&gt; /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                         ^ /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=&quot;$friend['age']&quot; lt 18 /&gt;&lt;/tpl&gt; /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                         ^ /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=&quot;$friend['age']&quot; lt 18 /&gt;&lt;/tpl&gt; /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                         ^ /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition="$friend['age']" lt 18
+
+[ 2016-11-10T10:43:55+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004601s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003976s ]
+
+[ 2016-11-10T10:44:54+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004015s ]
+
+[ 2016-11-10T10:46:26+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003841s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2016-11-10T10:47:05+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-11-10T10:52:16+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004013s ]
+
+[ 2016-11-10T10:54:26+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+
+[ 2016-11-10T10:54:40+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003945s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /Users/zhangxue/ThinkPHP/thinkphp/ThinkPHP/Library/Think/Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+
+[ 2016-11-10T10:55:53+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 126 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 126 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 126 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003956s ]
+
+[ 2016-11-10T10:57:39+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 131 行.
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003904s ]
+
+[ 2016-11-10T10:57:57+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2016-11-10T11:02:42+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003970s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: friend /Users/zhangxue/ThinkPHP/thinkphp/Apps/Runtime/Cache/Views/40d8c5e2154c7c692f35b06eaeb75940.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2016-11-10T21:45:03+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002938s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003021s ]
+
+[ 2016-11-10T21:46:55+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-11-10T21:53:04+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+
+[ 2016-11-10T22:04:12+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003798s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+
+[ 2016-11-10T22:04:14+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+
+[ 2016-11-10T22:07:22+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=vuaka78e15q3d3s9jrebprjtnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-10T22:07:35+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=7112svfk1ho4sm8ds6umvkrnv3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-11-10T22:09:24+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=7112svfk1ho4sm8ds6umvkrnv3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+
+[ 2016-11-10T22:16:57+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=7112svfk1ho4sm8ds6umvkrnv3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004240s ]
+INFO: [ view_parse ] --START--
+
+[ 2016-11-10T22:28:31+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=7112svfk1ho4sm8ds6umvkrnv3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+
+[ 2016-11-10T22:31:07+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=7112svfk1ho4sm8ds6umvkrnv3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+
+[ 2016-11-10T22:32:07+08:00 ] 127.0.0.1 /thinkphp/index.php?_ijt=4rtct0r6khn8u2huup6uq6t4gl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003925s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+

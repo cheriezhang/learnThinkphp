@@ -1,0 +1,117 @@
+<!--<taglib name="Views\TagLib\jike"/>-->
+<!--开启布局模式-->
+<!--<layout name="layout"/>  -->
+<extend name="Base/common"/>
+<block name="content">
+            <div class="alert alert-warning">
+            	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
+            	<strong>default</strong>默认主题
+            </div>
+        	<table class="table table-hover">
+        		<thead>
+        			<tr>
+        				<th></th>
+        			</tr>
+        		</thead>
+        		<tbody>
+        			<tr>
+        				<td>用户名</td>
+                        <td>{{$user.user|strtoupper}}</td>   <!--带函数写法:转化成为大写函数-->
+        			</tr>
+                    <tr>
+                        <td>电子邮件</td>
+                        <!--<td>{{$user.mail|str_replace='jike','jikexueyuan',###}}</td>  -->
+						<!--上面为函数带参数写法:替换jike为jikexueyuan-->
+						<td>{{$user.mail|str_replace='jike','jikexueyuan',###|strtoupper}}</td>
+						<!--上面为函数的嵌套,变量不是第一个参数要用###占位-->
+					</tr>
+					<tr>
+						<td>电子邮件php</td>
+						<td>{{:strtoupper(str_replace('jike','jikexueyuan',$user['mail']))}}</td>
+						<!--上面为原始php函数的嵌套-->
+					</tr>
+                    <tr>
+                        <td>年龄</td>
+                        <td>{{$user['age']-1}}</td>     <!--数组要采取中括号索引的方式获取  进行运算-->
+                    </tr>
+					<tr>
+						<td>计算年龄</td>
+						<td>{{$birthday_year|getAge}}</td> <!--变量作为第一个参数不用写在后面-->
+
+					</tr>
+					<tr>
+						<td>手机号</td>
+						<td>{{$mobile|default='none'}}</td>    <!--设置默认值-->
+					</tr>
+					<tr>
+						<td>项目目录</td>
+						<td>{{$Think.server.DOCUMENT_ROOT}}</td>    <!--输出项目目录,Think.server-->
+					</tr>
+        		</tbody>
+        	</table>
+
+			<!--For循环 和下面的php代码等效-->
+			<div class="panel panel-default">
+				<div class="panel heading">
+					<h3 class="panel-title">For标签循环输出</h3>
+				</div>
+				<div class="list-group">
+					<!--for 默认参数为-->
+					<for start="0" end="5" step="1">
+						<a href="#" class="list-group-item">使用for标签循环了{{$i+1}}次了</a>
+					</for>
+				</div>
+			</div>
+
+			<!--PHP标签-->
+			<div class="panel panel-default">
+				<div class="panel heading">
+					<h3 class="panel-title">PHP标签实现php代码循环输出</h3>
+				</div>
+				<div class="list-group">
+					<!--php标签-->
+					<php>
+						for($i=0;$i<5;$i++){
+							echo '<a href="#" class="list-group-item">使用php标签循环了'.($i+1).'次了</a>';
+						}
+					</php>
+				</div>
+			</div>
+
+			<!--literal原样输出-->
+			<div class="panel panel-default">
+				<div class="panel heading">
+					<h3 class="panel-title">原样输出</h3>
+				</div>
+				<div class="panel-body">
+					<blockquote>
+						<pre>
+							<literal>
+								我们可以使用{{$user.user}}的方式在输出用户名
+							</literal>
+						</pre>
+					</blockquote>
+				</div>
+			</div>
+
+		<!--<div class="panel panel-default">-->
+			  <!--<div class="panel-heading">-->
+					<!--<h3 class="panel-title">Panel title</h3>-->
+			  <!--</div>-->
+			  <!--<div class="list-group">-->
+					<!--<jike:friends  name="jike_user" uid="2" empty="没有数据">-->
+						<!--<a href="#" class="list-group-item">{{$jike_user['username']}}</a>-->
+					<!--</jike:friends>-->
+			  <!--</div>-->
+
+		<!--</div>-->
+
+
+</block>
+<!--重载header block 写新的方法-->
+<block name="header">
+	<div class="alert alert-success">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		<strong>Success</strong>重载Header
+	</div>
+</block>

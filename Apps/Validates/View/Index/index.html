@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="Page Description">
+        <meta name="author" content="zhangxue">
+        <title>Page Title</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    <div class="container">
+        <a class="btn btn-primary" data-toggle="modal" href="#modal-id">新增用户</a>
+        <!--弹框-->
+        <div class="modal fade" id="modal-id">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">新增用户</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="__SELF__" method="post" class="form-horizontal" role="form">
+                            <!--用户名-->
+                        	<div class="form-group">
+                        		<label class="col-xs-2">用户名</label>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control" name="name" value="{$old.name}">
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                	<if condition="isset($error['name])">
+                                        <b>{$errors.name}</b>
+                                    </if>
+                                </div>
+                            </div>
+                            <!--电子邮件-->
+                            <div class="form-group">
+                                <label class="col-xs-2">电子邮件</label>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control" name="email" value="{$old.email}">
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <if condition="isset($error['email'])">
+                                        <b>{$errors.email}</b>
+                                    </if>
+                                </div>
+                            </div>
+                            <!--密码-->
+                            <div class="form-group">
+                                <label class="col-xs-2">密码</label>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control" name="password" value="{$old.password}">
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <if condition="isset($error['password'])">
+                                        <b>{$errors.password}</b>
+                                    </if>
+                                </div>
+                            </div>
+                            <!--确认密码-->
+                            <div class="form-group">
+                                <label class="col-xs-2">确认密码</label>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control" name="comfirm_password" value="{$old.comfirm_password}">
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <if condition="isset($error['comfirm_password'])">
+                                        <b>{$errors.comfirm_password}</b>
+                                    </if>
+                                </div>
+                            </div>
+                            <!--生日-->
+                            <div class="form-group">
+                                <label class="col-xs-2">生日</label>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control" name="birthday" value="{$old.birthday}">
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <if condition="isset($error['birthday'])">
+                                        <b>{$errors.birthday}</b>
+                                    </if>
+                                </div>
+                            </div>
+                            <!--性别-->
+                            <div class="form-group">
+                                <label class="col-xs-2">性别</label>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control" name="sex" value="{$old.sex}">
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <if condition="isset($error['sex'])">
+                                        <b>{$errors.sex}</b>
+                                    </if>
+                                </div>
+                            </div>
+                            <!--猜猜看-->
+                            <div class="form-group">
+                                <label class="col-xs-2">有多少人</label>
+                                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control" name="friends" value="{$old.friends}">
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <if condition="isset($error['friends'])">
+                                        <b>{$errors.friends}</b>
+                                    </if>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <table class="table table-hover">
+        	<thead>
+        		<tr>
+        			<th>id</th>
+                    <th>name</th>
+                    <th>email</th>
+                    <th>password</th>
+                    <th>sex</th>
+                    <th>birthday</th>
+                    <th>ip</th>
+        		</tr>
+        	</thead>
+        	<tbody>
+                <volist name="users" id="user">
+                    <tr>
+                        <td>{$user.id}</td>
+                        <td>{$user.name}</td>
+                        <td>{$user.email}</td>
+                        <td>{$user.password}</td>
+                        <td>{$user.sex}</td>
+                        <td>{$user.birthday}</td>
+                        <td>{$user.ip}</td>
+        		    </tr>
+                </volist>
+        	</tbody>
+        </table>
+        <hr/>
+    </div>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+
+    <if condition="isset($errors)">
+        <script type="text/javascript">
+            $(function () {
+                $('#modal-id').modal('show');
+            })
+        </script>
+
+    </if>
+    </body>
+</html>
